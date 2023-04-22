@@ -1,1 +1,12 @@
-https://superuser.com/question/1644520/apt-get-update-issue-in-kali
+https://superuser.com/questions/1644520/apt-get-update-issue-in-kali
+
+update 2022
+
+# download
+wget http://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
+# install
+sudo dpkg -i kali-archive-keyring_2022.1_all.deb
+# remove downloaded file again
+rm kali-archive-keyring_2022.1_all.deb
+# update
+sudo apt-get update
